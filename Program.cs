@@ -8,10 +8,11 @@ namespace Mda1
     {
         static void Main(string[] args)
         {
-            List<Animal> animals = new List<Animal>()
-            {
-              animals.Add(new Animal()); 
-            };
+           List<Animal> animals = new List<Animal>();
+
+            animals.Add(new Dog( 10,  7,  3));
+            animals.Add(new Cat(7, 2, 3));
+            animals.Add(new Rabbit(1, 2, 5));
 
 
             Nastya.Show(animals);       
