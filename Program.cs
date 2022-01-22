@@ -10,7 +10,7 @@ namespace Mda1
         {
             List<Animal> animals = new List<Animal>()
             {
-               
+              animals.Add(new Animal()); 
             };
 
 
